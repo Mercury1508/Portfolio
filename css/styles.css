@@ -1,0 +1,137 @@
+body{
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    line-height: 2;
+  }
+  
+#title{
+    background-image: url(../images/back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+  
+.name{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 50px auto 0;
+    color: #66BFBF;
+    padding-top: 4rem ;
+}
+  
+.pro{
+    text-decoration: underline;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+  
+.navbar-brand{
+    /* font-family: "Ubuntu"; */
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+  
+.nav-item{
+    padding: 0 18px;
+}
+  
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat light";
+    text-align: right;
+    display: inline-block;
+}
+  
+.nav-link:hover{
+    border: solid;
+    border-width: 2px;
+    border-radius: 10%;
+    border-color: #fff;
+}
+
+.home-des{
+    text-align: left;
+}
+
+.programmer{
+    color: #fff;
+}
+
+#about{
+    padding-top:  100px;
+}
+
+.profile_pic{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem ;
+}
+
+.description{
+    width: 35%;
+    margin: auto;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: 500;
+}
+
+hr{
+    margin: 100px auto;
+    border: dotted #d8d3cd 6px;
+    width:5%;
+    border-bottom: none;
+}
+
+p,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.skill_cp{
+    width: 25%;
+    float: left;
+    margin-right:  30px;
+}
+  
+.skill_ps{
+    width: 25%;
+    float: right;
+    margin-left:  30px;
+}
+
+.skill_wd{
+    width: 25%;
+    float: left;
+    margin-right:  30px;
+}
+
+h3,a{
+    color: #11999E;
+}
+
+.inside-head{
+    font-size: 3rem ;
+}
+
+.judge{
+    margin-right: 1rem ;
+    font-weight: 500;
+}

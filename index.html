@@ -26,15 +26,14 @@
     <section id="title">
       <!-- navigation bar -->
         <div class="container-fluid">
-          <nav class="navbar  navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="">Hello World !</a>
+          <nav class="navbar navbar-expand-lg navbar-dark  fixed-top " style="background-color: #000;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
+              <ul class="navbar-nav mr-auto ">
                 <li class="nav-item">
-                  <a class="nav-link" href="#title">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#title">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#about">About Me</a>
@@ -46,7 +45,12 @@
                   <a class="nav-link" href="#project">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link" href="#CP">CP</a>
+                </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
                   </li>
               </ul>
             </div>
@@ -63,7 +67,7 @@
           <img class ="profile_pic" src="images/merc.png" alt="profile_pic">
           <h2>Hi <i class="far fa-hand-peace"></i></h2>
           <p class="description">My name is Hriday Garg. I am currently pursuing my batchelor's degree in IT at BIT Mesra, Ranchi. 
-          I am fond of sports in general, especially of football and athletics. Currently doing CP as a hobby, I am learning Web Development.   
+          Currently doing CP as a hobby, I am learning Web Development. I am fond of sports in general, especially of football and athletics. 
           </p>
       </div>
     </section>
@@ -71,11 +75,11 @@
     <hr>
     <!-- skill start -->
     <section id="skill">
-      <h2 class="inside-head">My Skills.</h2>
+      <h2 class="inside-head">My Skills</h2>
       <div class="skill-row">
         <img class="skill_cp" src="images/cp.jpg" alt="">
         <h3>Competitive Programming</h3>
-        <p >From the start, I was excited about competitive programming. Languages used - C/C++<br> I regularly give contests on various online judges like <br>
+        <p class="skill-des">From the start, I was excited about competitive programming. Languages used - <b>C/C++</b><br> I regularly give contests on various online judges like <br>
         <a href="https://codeforces.com/profile/hriday..garg" target="_blank" class="judge">Codeforces</a>
         <a href="https://www.codechef.com/users/mercury1508" target="_blank" class="judge">Codechef</a>
         <a href="https://www.hackerrank.com/hriday_1508_garg" target="_blank" class="judge">Hackerrank</a>
@@ -84,22 +88,51 @@
       <div class="skill-row">
         <img class="skill_ps" src="images/ps.jpg" alt="">
         <h3>Graphic Designing</h3>
-        <p>Started using photoshop just an an experiment but later started enjoying it. Although, I am not that great in graphic designing but i enjoy doing it.
+        <p class="skill-des">Started using photoshop just an an experiment but later started enjoying it. Although, I am not that great in graphic designing but i enjoy doing it.
         <br>
-        Software used- Adobe Photoshop, Illustrator
+        Software used- <b>Adobe Photoshop, Illustrator</b>
         </p>
       </div>
-      <div class="skill-row">
+      <div class="skill-row end">
         <img class="skill_wd" src="images/wd2.jpg" alt="">
         <h3>Web Development</h3>
-        <p >Recently, I started learning frontend web development. There is still a lot to learn and will soon dive into backend web dev. <br>Languages used - HTML, CSS, Javascipt<br>
-          Tools/Packages used- Bootstrap, Git
+        <p class="skill-des">Recently, I started learning frontend web development. There is still a lot to learn and will soon dive into backend web dev. <br>Languages used - <b>HTML, CSS, Javascipt</b><br>
+          Tools/Packages used- <b>Bootstrap, Git</b>
         </p>
       </div>
     </section>
     <!-- skill end -->
     <hr>
     <!-- project start -->
-    
+    <section id="project">
+      <h2 class="inside-head">My Projects</h2>
+      <div id="testimonial-corousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video class="project-vid" src="" poster="images/p1.JPG" ></video>
+            <h3 class="project-text">Portfolio <i class="fab fa-github"></i></h3>
+            <p class="skill-des">A portfolio website showing my skills and interest.
+              <br>Languages used - <b>HTML, CSS, Javascipt</b>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <video class="project-vid" src="videos/p2.mp4" poster="images/p2.JPG" ></video>
+            <h3 class="project-text"><a href="https://mercury1508.github.io/DrumKit/" target="_blank">Drum Kit</a><a href="https://github.com/Mercury1508/DrumKit" target="_blank"><i class="fab fa-github"></i></a></h3>
+            <p class="skill-des">A website where you can play drums using your keyboard.
+              <br>Languages used - <b>HTML, CSS, Javascipt</b>
+            </p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#testimonial-corousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon prenext" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#testimonial-corousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon prenext" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <script src="index.js" charset="utf-8"></script>
 </body>
 </html>

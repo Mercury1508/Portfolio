@@ -4,6 +4,7 @@ body{
     text-align: center;
     margin: 0;
     line-height: 2;
+    background-color: #151515;
   }
   
 #title{
@@ -29,16 +30,6 @@ body{
 .pro{
     text-decoration: underline;
 }
-
-.navbar{
-    padding: 0 0 4.5rem;
-}
-  
-.navbar-brand{
-    /* font-family: "Ubuntu"; */
-    font-size: 2.5rem;
-    font-weight: bold;
-}
   
 .nav-item{
     padding: 0 18px;
@@ -60,6 +51,7 @@ body{
 
 .home-des{
     text-align: left;
+    padding-top: 10% ;
 }
 
 .programmer{
@@ -67,7 +59,7 @@ body{
 }
 
 #about{
-    padding-top:  100px;
+    padding:  100px 0;
 }
 
 .profile_pic{
@@ -79,6 +71,7 @@ body{
 .description{
     width: 35%;
     margin: auto;
+    color: #fff;
 }
 
 h2{
@@ -89,7 +82,7 @@ h2{
 }
 
 hr{
-    margin: 100px auto;
+    margin: 30px auto;
     border: dotted #d8d3cd 6px;
     width:5%;
     border-bottom: none;
@@ -97,6 +90,10 @@ hr{
 
 p,h3{
     font-family: 'Montserrat', sans-serif;
+}
+
+#skill,#project{
+    padding-top: 100px ;
 }
 
 .skill-row{
@@ -107,20 +104,27 @@ p,h3{
 
 .skill_cp{
     width: 25%;
+    border-radius: 50%;
     float: left;
     margin-right:  30px;
 }
   
 .skill_ps{
-    width: 25%;
+    width: 26%;
+    border-radius: 50%;
     float: right;
     margin-left:  30px;
 }
 
 .skill_wd{
     width: 25%;
+    border-radius: 50%;
     float: left;
     margin-right:  30px;
+}
+
+.skill-des{
+    color: #fff;
 }
 
 h3,a{
@@ -134,4 +138,25 @@ h3,a{
 .judge{
     margin-right: 1rem ;
     font-weight: 500;
+    color: #66BFBF;
+}
+
+.end{
+    padding-bottom: 30px;
+}
+
+.carousel-inner{
+    padding: 5% 15%;
+}
+
+.project-vid{
+    width: 60%;
+}
+
+.project-text{
+    padding: 20px 0 0;
+}
+
+.fa-github{
+    padding-left: 30px;
 }

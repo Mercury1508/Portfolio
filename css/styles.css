@@ -29,7 +29,9 @@ body{
     color: #66BFBF;
     padding-top: 4rem ;
 }
-  
+
+/* navigation bar start*/
+
 .nav-item{
     padding: 0 18px;
 }
@@ -47,6 +49,8 @@ body{
     border-radius: 10%;
     border-color: #fff;
 }
+
+/* navigation bar end */
 
 .home-des{
     text-align: left;
@@ -193,6 +197,8 @@ h3,a{
     color: #fff;
 }
 
+/* making responsive */
+
 @media screen and (max-width: 480px) {
     h2{
         font-size: 2rem;
@@ -204,7 +210,6 @@ h3,a{
         float: none;
         margin: auto;
         margin-bottom: 15px;
-        /* padding-bottom: 20px; */
     }
     .skill-row{
         text-align: center;
@@ -228,7 +233,9 @@ h3,a{
         width:250px;
     }
 }
-  
+
+/* adding animation */
+
 .ml1 .letter {
     display: inline-block;
     line-height: 1em;

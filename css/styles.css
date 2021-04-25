@@ -10,6 +10,8 @@ body{
 #title{
     background-image: url(../images/back.jpg);
     height: 100vh;
+    width: 100vw;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -22,13 +24,10 @@ body{
 .name{
     font-family: 'Sacramento', cursive;
     font-size: 90px;
+    font-weight: 600;
     margin: 50px auto 0;
     color: #66BFBF;
     padding-top: 4rem ;
-}
-  
-.pro{
-    text-decoration: underline;
 }
   
 .nav-item{
@@ -69,7 +68,7 @@ body{
 }
 
 .description{
-    width: 35%;
+    width: 50%;
     margin: auto;
     color: #fff;
 }
@@ -82,7 +81,6 @@ h2{
 }
 
 hr{
-    margin: 30px auto;
     border: dotted #d8d3cd 6px;
     width:5%;
     border-bottom: none;
@@ -103,24 +101,27 @@ p,h3{
 }
 
 .skill_cp{
-    width: 25%;
+    width: 200px;
     border-radius: 50%;
     float: left;
     margin-right:  30px;
+    margin-bottom: 30px;
 }
   
 .skill_ps{
-    width: 26%;
+    width: 200px;
     border-radius: 50%;
     float: right;
     margin-left:  30px;
+    margin-bottom: 30px;
 }
 
 .skill_wd{
-    width: 25%;
+    width: 200px;
     border-radius: 50%;
     float: left;
     margin-right:  30px;
+    margin-bottom: 30px;
 }
 
 .skill-des{
@@ -149,8 +150,8 @@ h3,a{
     padding: 5% 15%;
 }
 
-.project-vid{
-    width: 60%;
+.project-image{
+    width: 500px;
 }
 
 .project-text{
@@ -161,12 +162,21 @@ h3,a{
     padding-left: 30px;
 }
 
+.contact-link{
+    margin-left: 10px;
+}
+
 .connect{
     padding-bottom: 30px;
 }
 
 .connect-icon{
-    padding: 0 30px 0 4px;
+    padding: 0 20px 0 4px;
+}
+
+.con-info{
+    width: 80%;
+    margin: auto;
 }
 
 #ending{
@@ -174,4 +184,40 @@ h3,a{
     padding: 10px 0 1px 0 ;
     background-color: #000;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .skill_cp,.skill_ps,.skill_wd{
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+        /* padding-bottom: 20px; */
+    }
+    .skill-row{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .project-image{
+        width:400px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .project-image{
+        width:300px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .project-image{
+        width:250px;
+    }
 }

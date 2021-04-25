@@ -92,7 +92,7 @@ p,h3{
     font-family: 'Montserrat', sans-serif;
 }
 
-#skill,#project{
+#skill,#project,#contact{
     padding-top: 100px ;
 }
 
@@ -157,6 +157,21 @@ h3,a{
     padding: 20px 0 0;
 }
 
-.fa-github{
+.project-icon{
     padding-left: 30px;
+}
+
+.connect{
+    padding-bottom: 30px;
+}
+
+.connect-icon{
+    padding: 0 30px 0 4px;
+}
+
+#ending{
+    margin-top: 20px;
+    padding: 10px 0 1px 0 ;
+    background-color: #000;
+    color: #fff;
 }

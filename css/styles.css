@@ -25,7 +25,6 @@ body{
     font-family: 'Sacramento', cursive;
     font-size: 90px;
     font-weight: 600;
-    margin: 50px auto 0;
     color: #66BFBF;
     padding-top: 4rem ;
 }
@@ -74,7 +73,7 @@ body{
 }
 
 .description{
-    width: 50%;
+    width: 70%;
     margin: auto;
     color: #fff;
 }
@@ -88,7 +87,7 @@ h2{
 
 hr{
     border: dotted #d8d3cd 6px;
-    width:5%;
+    width:8%;
     border-bottom: none;
 }
 
@@ -102,7 +101,7 @@ p,h3{
 
 .skill-row{
     width: 50%;
-    margin: 100px auto;
+    margin: 5% auto;
     text-align: left;
 }
 
@@ -142,7 +141,7 @@ h3,a{
 }
 
 .inside-head{
-    font-size: 3rem ;
+    font-size: 3.4rem ;
 }
 
 .judge{
@@ -182,7 +181,7 @@ h3,a{
 }
 
 .connect-icon{
-    padding: 0 20px 0 4px;
+    padding: 0 20px 0 0;
 }
 
 .con-info{
@@ -214,6 +213,9 @@ h3,a{
     .skill-row{
         text-align: center;
     }
+    .skill-row{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -231,6 +233,18 @@ h3,a{
 @media screen and (max-width: 400px){
     .project-image{
         width:250px;
+    }
+}
+
+@media screen and (min-height: 500px) {
+    .name{
+        margin: 50px auto 0;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .description{
+        width: 50%;
     }
 }
 

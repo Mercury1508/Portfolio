@@ -87,7 +87,7 @@ h2{
 
 hr{
     border: dotted #d8d3cd 6px;
-    width:8%;
+    width:5%;
     border-bottom: none;
 }
 
@@ -178,7 +178,7 @@ h3,a{
 }
 
 .connect{
-    padding-bottom: 30px;
+    padding-bottom: 2%;
 }
 
 .connect-icon{
@@ -224,11 +224,32 @@ h3,a{
     .project-image{
         width:400px;
     }
+    #skill,#project,#contact{
+        padding-top: 50px ;
+    }
+    #project{
+        padding-bottom: 25px;
+    }
+    .skill-row{
+        margin-bottom: 0;
+    }
+    .cp,.ps{
+        padding-bottom: 25px;
+    }
+    .end{
+        padding-bottom: 50px;
+    }
+    #about{
+        padding-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 600px){
     .project-image{
         width:300px;
+    }
+    hr{
+        width: 20%;
     }
 }
 
@@ -247,6 +268,12 @@ h3,a{
 @media screen and (min-width: 600px) {
     .description{
         width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .inside-head{
+        padding-bottom: 25px;
     }
 }
 
